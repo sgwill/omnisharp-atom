@@ -68,6 +68,8 @@ module.exports =
 
     @codeFormat: => @req "codeFormat", "code-format"
 
+    @reloadSolution: => @req "reloadsolution", "reload-solution"
+
     @build: => @req "buildcommand", "build-command"
 
     @autocomplete: (wordToComplete) =>
